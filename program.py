@@ -3,3 +3,11 @@
 
 def myFunction():
     return "Hello World!"
+
+def MyInputFunction():
+    Name = ""
+    Name = input()
+    return Name
+
+print(myFunction())
+print("Hello",MyInputFunction(),"!")
